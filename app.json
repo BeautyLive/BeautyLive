@@ -1,0 +1,29 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+   "window":{
+    "navigationBarBackgroundColor": "#ffffff",
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "BeautyLive",
+    "backgroundColor": "#eeeeee",
+    "backgroundTextStyle": "light"
+  },
+  "tabBar": {
+    "color":"#000000",
+    "selectedColor":"#777777",
+    "backgroundColor":"#dedede",
+    "list": [
+      {
+      "pagePath": "pages/index/index",
+      "text": "首页"
+      },
+      {
+      "pagePath": "pages/logs/logs",
+      "text": "日志"
+      }
+    ]
+  }
+
+}
